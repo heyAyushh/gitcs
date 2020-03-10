@@ -168,6 +168,8 @@ app.get('/callback', function(req, res) {
 				config.set('refresh_token', refresh_token);
 
 				res.redirect('https://gitcs.now.sh/');
+
+				func();
 			})
 			.catch((err) => console.log(chalk.bold.red(err)));
 	}
