@@ -30,7 +30,6 @@
   "homepage": "https://github.com/heyAyushh/gitcs#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "boxen": "^4.2.0",
     "btoa": "^1.2.1",
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
@@ -40,8 +39,7 @@
     "express": "^4.17.1",
     "meow": "^6.0.1",
     "node-emoji": "^1.10.0",
-    "open": "^6.3.0",
-    "yargs": "^13.3.0"
+    "open": "^6.3.0"
   },
   "main": "index.js",
   "devDependencies": {}
