@@ -2,8 +2,10 @@
 
 ![gitcs](https://gitcs.now.sh/gitcs.png)
 
+[![Hits-of-Code](https://hitsofcode.com/github/heyayush/gitcs)](https://hitsofcode.com/view/github/heyayush/gitcs)
+
 Trying hard to come up with a commit message, everytime you stage to your pet project?  
-Wait no longer, commit the song you're playing on spotify, with single command.
+Wait no longer, commit the song you're playing (on spotify) + random emoji, with single command.
 ```
 gitcs
 ```
