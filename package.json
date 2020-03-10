@@ -1,13 +1,13 @@
 {
   "name": "gitcs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "git-commit-spotify adds current playing song name to the commit message in github repository.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heyAyushh/gcs.git"
+    "url": "git+https://github.com/heyAyushh/gitcs.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -20,14 +20,14 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "gitcs": "./bin/gitcs.js"
+    "gitcs": "bin/gitcs.js"
   },
   "author": "Ayush Chauhan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heyAyushh/gcs/issues"
+    "url": "https://github.com/heyAyushh/gitcs/issues"
   },
-  "homepage": "https://github.com/heyAyushh/gcs#readme",
+  "homepage": "https://github.com/heyAyushh/gitcs#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "boxen": "^4.2.0",
@@ -41,8 +41,8 @@
     "meow": "^6.0.1",
     "node-emoji": "^1.10.0",
     "open": "^6.3.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4",
     "yargs": "^13.3.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {}
 }
